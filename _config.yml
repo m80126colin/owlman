@@ -1,8 +1,8 @@
 ##### Menu
 menu:
-  Home: /blog
-  Archives: /blog/archives
-  RSS: /blog/rss.xml
+  home: /blog
+  archive: /blog/archives
+  rss: /blog/rss.xml
 ## you can create `tags` and `categories` folders in `../source`.
 ## And create a `index.md` file in each of them.
 ## set `front-matter`as
@@ -76,7 +76,7 @@ duoshuo:
   short_name:  ## duoshuo short name.
 
 # Disqus
-disqus_shortname: m80126colin
+disqus_shortname:
 
 #### Share button
 jiathis:
