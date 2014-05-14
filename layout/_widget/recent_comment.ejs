@@ -1,6 +1,6 @@
-<% if(theme.disqus_shortname) { %>
-<div id="recentcomments" class="dsq-widget">
-<p class="asidetitle"><%- __('recent_comments') %></p>
-	<script type="text/javascript" src="http://<%= theme.disqus_shortname %>.disqus.com/recent_comments_widget.js?num_items=5&hide_avatars=1&avatar_size=32&excerpt_length=10&hide_mods=0"></script>
-</div>
+<% if (theme.disqus_shortname) { %>
+	<div id="recentcomments" class="dsq-widget">
+		<p class="asidetitle"><%- __('recent_comments') %></p>
+		<script type="text/javascript" src="http://<%= config.disqus_shortname || theme.disqus_shortname %>.disqus.com/recent_comments_widget.js?num_items=5&hide_avatars=1&avatar_size=32&excerpt_length=10&hide_mods=0"></script>
+	</div>
 <% } %>

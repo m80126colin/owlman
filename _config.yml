@@ -16,14 +16,20 @@ widgets:
 - category
 - archive
 - tag
+- tagcloud
 - recent_comment
 - links
 - rss
-## provide six widgets:category,tag,rss,archive,tagcloud,links.
+## provide six widgets:
+#     category, tag, rss, archive, tagcloud, links.
 ## modify links in `/layout/_widget/links.ejs`.
 
+links:
+  Morris' Blog: http://mypaper.pchome.com.tw/zerojudge
+  Morris' Blog (on Github): http://morris821028.github.io
+
 #### RSS
-rss: /blog/atom.xml ## RSS address.
+rss: /blog/atom.xml        ## RSS address.
 
 #### Image
 imglogo:
@@ -51,7 +57,7 @@ toc:
   article: true   ## show contents in article.
   aside: true     ## show contents in aside.
 ## you can set both of the value to true of neither of them.
-## if you don't want display contents in a specified post,you can modify `front-matter` and add `toc: false`.
+## if you don't want display contents in a specified post, you can modify `front-matter` and add `toc: false`.
 
 #### Fancybox
 fancybox: false
@@ -73,7 +79,7 @@ author:
 #### Comment
 duoshuo: 
   enable: false ## duoshuo.com
-  short_name:  ## duoshuo short name.
+  short_name:   ## duoshuo short name.
 
 # Disqus
 disqus_shortname:
@@ -104,5 +110,5 @@ google_cse:
 ## ---
 
 #### Ukagaka
-ukagaka: 
+ukagaka:
   enable: false

@@ -1,6 +1,6 @@
 <script src="<%- config.root %>js/jquery-2.1.0.min.js"></script>
 <script type="text/javascript">
-$(document).ready(function(){ 
+$(document).ready(function(){
   $('.navbar').click(function(){
     $('header nav').toggleClass('shownav');
   });
@@ -25,7 +25,7 @@ $(document).ready(function(){
       m.removeClass('moveMain');
       a.css('display', 'block').removeClass('fadeOut');
       o.css('display', 'none');
-      <% if( is_post()&&(page.toc !== false) && theme.toc.aside){ %>
+      <% if( is_post() && (page.toc !== false) && theme.toc.aside) { %>
       $('#toc.toc-aside').css('display', 'none');
       <% } %>  
     }

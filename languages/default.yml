@@ -1,20 +1,26 @@
+#### Menu Config
 home: Home
-categories: Categories
+menu: Menu
 search: Search
+
+#### Sidebar Config
 tags: Tags
 tagcloud: Tag Cloud
-prev: Prev
-next: Next
-comment: Comments
-contents: Contents
-archive: Archives
-archive_b: Archives: %s
-page: Page %d
+categories: Categories
 recent_posts: Recent Posts
 recent_comments: Recent Comments
-menu: Menu
+archive: Archives
 links: Links
 rss: RSS
 showsidebar: Show Sidebar
 hidesidebar: Hide Sidebar
+
+#### Article Config
+prev: Prev
+next: Next
+comment: Comments
+contents: Contents
+archive_b: Archives: %s
+page: Page %d
 updated: Updated
+outline: Outline
