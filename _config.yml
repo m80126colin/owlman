@@ -24,12 +24,16 @@ widgets:
 #     category, tag, rss, archive, tagcloud, links.
 ## modify links in `/layout/_widget/links.ejs`.
 
+#### links
 links:
   Morris' Blog: http://mypaper.pchome.com.tw/zerojudge
   Morris' Blog (on Github): http://morris821028.github.io
 
 #### RSS
 rss: /blog/atom.xml        ## RSS address.
+
+
+excerpt_link: Read More
 
 #### Image
 imglogo:

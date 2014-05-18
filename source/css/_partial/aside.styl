@@ -9,8 +9,8 @@
     color color-white
     border 1px solid color-white
     border-radius 5px
-    background color-theme
-    padding 0.2em 0.55em
+    background color-theme-2
+    padding 0.2rem 0.55rem
     &::before
       font-family font-icon-family
       font-smoothing()
@@ -21,7 +21,7 @@
   a
     color color-font
     &:hover
-      color color-blue
+      color color-theme-3
     &::before
       font-family font-icon-family
       font-smoothing()
@@ -35,23 +35,23 @@
 //sidebar
 #asidepart
   background color-section
-  margin 1em 0 0
-  padding 0.5em 2% 1em
+  margin 1rem 0 0
+  padding 0.5rem 2% 1rem
   @media tablet
     position relative
     float left
     width 18%
-    margin 2em 0 0 3%
+    margin 2rem 0 0 3%
 
 .asidetitle
-  font-size 1.1em
-  color color-blue
-  padding 0 0 0.3125em 0
-  border-bottom 0.1875em solid color-gray
+  font-size 1.1rem
+  color color-aside-title
+  padding 0 0 0.3125rem 0
+  border-bottom 0.1875rem solid color-gray
   a
-    color color-blue
+    color color-aside-title
     &:hover
-      color color-theme2
+      color color-theme-1
       transition color .5s
 
 //categories
@@ -63,18 +63,18 @@
   @media tablet 
     width 100%
     float none
-    margin 1em 0 0
+    margin 1rem 0 0
   li 
     border-bottom 1px solid color-gray
     a
       display block
-      padding 0.5em 5%
+      padding 0.5rem 5%
       &:hover
-        color color-theme2
+        color color-theme-1
 
 //tag
 .tagslist
-  margin 1em 0 0
+  margin 1rem 0 0
   @media mini
     width 45%
     float left
@@ -82,26 +82,26 @@
   @media tablet 
     width 100%
     float none
-    margin 1em 0 0
+    margin 1rem 0 0
   ul
-    padding 0.5em 0
+    padding 0.5rem 0
   ul li
     float left
     a
       display block    
       border-style dotted
       border-width 2px
-      border-radius 0.5em
-      margin 0.3125em
-      padding 0.25em 0.625em
-      background color-code
+      border-radius 0.5rem
+      margin 0.3125rem
+      padding 0.25rem 0.625rem
+      background color-tag
       &:hover
-        color color-theme
+        color color-theme-3
         background lighten(color-gray, 50%)
 
 //rss
 .rsspart
-  background color-theme
+  background color-theme-2
   width 100%
   @media mini
     float left
@@ -110,19 +110,19 @@
   @media tablet 
     width 100%
     float none
-    margin 1em 0 0
+    margin 1rem 0 0
   a
     color color-white
     display block
-    padding 0.625em 0
+    padding 0.625rem 0
     text-align center
     &:hover
-      color color-theme2
+      color color-theme-1
       background color-section
     &::before
       font-family font-icon-family
       font-smoothing()
-      padding-right 0.5em
+      padding-right 0.5rem
       content "\f09e"
 
 //archive
@@ -134,14 +134,14 @@
   @media tablet 
     width 100%
     float none
-    margin 1em 0 0
+    margin 1rem 0 0
   li 
-    font-size 0.8em
-    line-height 2em
+    font-size 0.8rem
+    line-height 2rem
     a
-      padding 0.5em
+      padding 0.5rem
       &:hover
-        color color-theme2
+        color color-theme-1
         transition color .25s
   .archive-list-count
     &:before
@@ -150,14 +150,14 @@
       content ")"
           
 .archive-list 
-  padding 0.5em 0 
+  padding 0.5rem 0 
 
 .archive-float 
   ul
     padding 0 
   li
     float left
-    margin 0.3em
+    margin 0.3rem
     @media tablet
       float none
 
@@ -170,19 +170,19 @@
   @media tablet 
     width 100%
     float none
-    margin 1em 0 0
+    margin 1rem 0 0
   .tagcloudlist
     a
-      padding 0.2em
+      padding 0.2rem
       display block
       float left
       &:hover
-        color color-theme2
+        color color-theme-1
         transition color .25s
 
 //links
 .linkslist
-  margin-top 0.5em 
+  margin-top 0.5rem 
   @media mini
     width 45%
     float left
@@ -190,15 +190,15 @@
   @media tablet 
     width 100%
     float none
-    margin 1em 0 0
+    margin 1rem 0 0
   ul
-    padding 0.5em 0
+    padding 0.5rem 0
     a
-      font-size 1em
+      font-size 1rem
       line-height line-height
       display block
       padding 0 3%
       &:hover
-        color color-theme2
+        color color-theme-1
         transition color .25s
 

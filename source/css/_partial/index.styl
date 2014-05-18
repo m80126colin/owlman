@@ -11,35 +11,35 @@
     width 82%
     
 #main
-  margin 1em 0 0
+  margin 1rem 0 0
   line-height line-height+0.3
   @media tablet
-    margin 2em 0 0
+    margin 2rem 0 0
     width 75%
     float left
     transition margin 0.5s ease-out
   section.post
     background color-section
-    margin-bottom 0.125em
+    margin-bottom 0.125rem
     .post-block-link
       display block
-      border-left 0.5em solid color-gray
+      border-left 0.5rem solid color-gray
       transition border-left .45s
-      padding 0.5em
+      padding 0.5rem
       @media mini
-        padding 1em
+        padding 1rem
       &:hover
-        border-left 0.5em solid color-theme
+        border-left 0.5rem solid color-theme-2
       h1
-        color color-blue
+        color color-theme-2
         line-height line-height+0.5
       p
         color color-font
       time
         color color-font
         display block
-        margin 0.5em 0
-        font-size 0.5em
+        margin 0.5rem 0
+        font-size 0.5rem
 
 .moveMain
   margin-left 10% !important
@@ -50,18 +50,18 @@
   overflow hidden
   a, span
     display inline-block
-    padding 0.5em 1em
+    padding 0.5rem 1rem
   a
     color color-blue
     &:hover
       background color-gray
-      color color-theme
+      color color-theme-2
   .prev
     float left
-    border-left 0.5em solid color-gray
+    border-left 0.5rem solid color-gray
     transition border-left .5s
     &:hover
-      border-left 0.5em solid color-theme
+      border-left 0.5rem solid color-theme-2
   .next
     float right
   .page-number
@@ -85,7 +85,7 @@
   font-smoothing()
   color color-gray
   font-size font-size
-  padding-right 0.3em
+  padding-right 0.3rem
 
 .category-icon:before
   content "\f07b"
@@ -97,16 +97,16 @@
   content "\f187"
 
 .archive-title
-  margin 1em 0
+  margin 1rem 0
   width 97%
-  padding 2em 0 2em 3%
+  padding 2rem 0 2rem 3%
   @media tablet
-    margin 2em 0
+    margin 2rem 0
     width 18.5%
     padding-left 0.5%
     float left
   background color-section
-  border-left 0.5em solid color-gray
+  border-left 0.5rem solid color-gray
   h2
     width 90%
     color color-blue
@@ -115,10 +115,10 @@
     color color-blue
     transition color .5s
     &:hover
-      color color-theme
+      color color-theme-2
       transition color .5s
 .current
-  color color-theme !important
+  color color-theme-2 !important
 
 .archive-part
   @media mini
@@ -139,7 +139,7 @@
   @media mini
     width 100%
     float left
-    margin-top 1em
+    margin-top 1rem
 
 /*! tags&categories layout */
 .all-list-box
